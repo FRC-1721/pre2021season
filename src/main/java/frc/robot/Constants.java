@@ -16,4 +16,19 @@ package frc.robot;
  * constants are needed, to reduce verbosity.
  */
 public final class Constants {
+
+    /**
+     * This class stores the location of CAN Devices
+     * @author Joe
+     */
+    public static final class CANIds{
+        public static final int TalonSRX_Port_Address = 0;      //Configured never
+        public static final int TalonSRX_Starboard_Address = 1;      //Configured never
+    }
+
+    public static class DriverSettings{
+        public static final int Driver_Stick_Port = 0;
+		public static final int PortAxis = 0;
+		public static final int StarboardAxis = 0;
+    }
 }
