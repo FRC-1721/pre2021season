@@ -42,7 +42,9 @@ public class RobotContainer {
     configureButtonBindings();
 
     // Set default command
-    m_drivetrain.setDefaultCommand(new FlyByWireCommand(m_drivetrain, () -> DriverStick.getRawAxis(Constants.DriverSettings.PortAxis), () -> DriverStick.getRawAxis(Constants.DriverSettings.StarboardAxis)));
+    m_drivetrain.setDefaultCommand(new FlyByWireCommand(m_drivetrain,
+    () -> DriverStick.getRawAxis(Constants.DriverSettings.PortAxis),
+    () -> DriverStick.getRawAxis(Constants.DriverSettings.StarboardAxis)));
   }
 
   /**
