@@ -9,6 +9,11 @@ package frc.robot.subsystems;
 
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
+/**
+ * Joe marked this as Depreciated.
+ * Do not use examplesubsystem, it will be removed in the future.
+ */
+@Deprecated
 public class ExampleSubsystem extends SubsystemBase {
   /**
    * Creates a new ExampleSubsystem.

@@ -19,9 +19,11 @@ public class ExampleCommand extends CommandBase {
 
   /**
    * Creates a new ExampleCommand.
-   *
+   * Joe marked this as Depreciated.
+   * Do not use examplesubsystem, it will be removed in the future.
    * @param subsystem The subsystem used by this command.
    */
+@Deprecated
   public ExampleCommand(ExampleSubsystem subsystem) {
     //m_subsystem = subsystem;
     // Use addRequirements() here to declare subsystem dependencies.
